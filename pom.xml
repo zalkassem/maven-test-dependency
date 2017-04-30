@@ -46,9 +46,6 @@
 			<version>3.0.4</version>
 			<configuration>
 				<xmlOutput>true</xmlOutput>
-				<findbugsXmlOutput>true</findbugsXmlOutput>
-      				<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
-      				<xmlOutput>true</xmlOutput>
 			</configuration>
 		</plugin>
 	</plugins>	
