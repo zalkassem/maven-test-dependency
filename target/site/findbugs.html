@@ -47,12 +47,15 @@
                                                                                                                                                                                 <li class="collapsed">
                           <a href="project-info.html" title="Project Information">Project Information</a>
                   </li>
-                                                                              <li class="expanded">
+                                                                                                <li class="expanded">
                           <a href="project-reports.html" title="Project Reports">Project Reports</a>
                     <ul>
                       <li class="none">
             <strong>FindBugs</strong>
           </li>
+                      <li class="none">
+                          <a href="checkstyle.html" title="Checkstyle">Checkstyle</a>
+            </li>
               </ul>
         </li>
           </ul>
@@ -81,7 +84,7 @@
 <th>Missing Classes</th></tr>
 <tr class="b">
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>0</td>
 <td>0</td></tr></table></div>
 <div class="section">
@@ -89,7 +92,25 @@
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Class</th>
-<th>Bugs</th></tr></table></div>
+<th>Bugs</th></tr>
+<tr class="b">
+<td><a href="#com.oreilly.jenkins.MessageSource">com.oreilly.jenkins.MessageSource</a></td>
+<td>1</td></tr></table></div><a name="com.oreilly.jenkins.MessageSource"></a>
+<div class="section">
+<h3>com.oreilly.jenkins.MessageSource<a name="com.oreilly.jenkins.MessageSource"></a></h3>
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="b">
+<td>Null pointer dereference of str in com.oreilly.jenkins.MessageSource.thisIsABug()</td>
+<td>CORRECTNESS</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#NP_ALWAYS_NULL">NP_ALWAYS_NULL</a></td>
+<td>13</td>
+<td>High</td></tr></table></div>
       </div>
     </div>
     <div class="clear">
