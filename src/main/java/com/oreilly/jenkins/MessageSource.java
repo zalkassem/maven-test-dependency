@@ -8,7 +8,9 @@ public class MessageSource {
 		if(message == "Hello"){
 			System.out.println("something");
 		}
-		return message;
+		//return message;
+		String str = null;
+        return str.toUpperCase();
 	}
 
 }
